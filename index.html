@@ -5,30 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lux</title>
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <!-- custom CSS -->
-     <link rel="stylesheet" href="assets/css/styling.css">
-     <script src="https://kit.fontawesome.com/f943ecf26e.js"
-      crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="assets/css/styling.css">
+    <script src="https://kit.fontawesome.com/f943ecf26e.js"
+     crossorigin="anonymous"></script>
 </head>
-<body style="background-image:url(images/color.PNG);background-size:cover;background-repeat: no-repeat;">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button type="button" id="sidebarCollapse" class="btn btn-primary">
-                <i class="fa fa-bars"></i>
-                <span class="sr-only">Toggle menu</span>
-            </button>
-            <button  class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-             aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-                 </button>
-            
- <!-- JQUERY -->
- <script src="assets/js/jquery-3.6.0.min.js"></script>
- <!-- popper js -->
- <script src="assets/js/popper.min.js"></script>
- <!-- Bootstrap.min.js -->
- <script src="assets/js/bootstrap.min.js"></script>
+<body style="background-image:url(images/color.PNG);background-size:cover;background-repeat: no-repeat;" 
+class=" img-fluid img-thumbnail">
+  <div class="sidebar">
+        <a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a  class="active text-light" href="book.html"><i class="fa fa-fw fa-wrench"></i> Booking</a>
+        <a href="about.html"><i class="fa fa-fw fa-user"></i> About Us</a>
+        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+      </div>
+<!-- carousel -->
+<section>
+<div class="container" style="height: 300px!important;">
+  <div class="carousel">
+    <div class="carousel__face"><span>Our fleet</span></div>
+    <div class="carousel__face"><span>Child friendly</span></div>
+    <div class="carousel__face"><span>Special is the key</span></div>
+    <div class="carousel__face"><span>For you</span></div>
+    <div class="carousel__face"><span>Customer satisfaction</span></div>
+    <div class="carousel__face"><span>Disability friendly</span></div>
+    <div class="carousel__face"><span>Comfort</span></div>
+    <div class="carousel__face"><span>Best drivers</span></div>
+    <div class="carousel__face"><span>Woow</span></div>
+  </div>
+</div>
+</section>
+     <!-- services -->
+     <section style="position: relative;margin-bottom: 100px; margin-left:180px;">
+     <div class="row">
+       <div class="col-md-3">
+         <img src="images/vip.png" alt="VIP" width="105px" height="105px">
+         <h1>Vip treatment</h1>
+       </div>
+       <div class="col-md-3">
+        <img src="images/1280px-WiFi_Logo.svg.png" alt="wifi" width="105px" height="105px">
+        <h1>Free wifi available</h1>
+       </div>
+       <div class="col-md-3">
+        <img src="images/seats.png" alt="seats" width="105px" height="105px">
+        <h1>Extra Leg Room</h1>
+       </div>
+       <div class="col-md-3">
+        <img src="images/power.png" alt="power" width="105px" height="105px">
+        <h1>USB power Outlets</h1>
+       </div>
+     </div>
+    </section>
+    <!-- advantages -->
+    <section style="margin-left: 180px;">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+<img src="images/save.png" alt="save" width="126px" height="126px">
+          </div>
+          <div class="col-md-6">
+            <h3>Save</h3>
+            <p>Pay less when using our new Mobile App. You can save upto 25% of your Promo Cash
+               balance in a single booking</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/credits.png" alt="credits" width="80px" height="80px">
+            </div>
+            <div class="col-md-6">
+              <h3>Earn Credits</h3>
+             <p> Receive more credit during promotional periods which will be added into your Promo Cash account</p>
+              </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!--routes  -->
+    <section class="my-5" style="margin-left: 180px;">
+      <table class="table  table-stripped table-hover">
+        <h1>Top Routes</h1>
+        <tr>
+          <td class="table-info">Nairobi - Mombasa</td>
+          <td class="table-primary">Nairobi - Nakuru</td>
+          <td class="table-info">Nairobi - Kisumu</td>
+        </tr>
+        <tr>
+          <td class="table-primary">Mombasa - Nairobi</td>
+          <td class="table-info">Mombasa - Nakuru</td>
+          <td class="table-primary">Mombasa - Kisumu</td>
+        </tr>
+        <tr>
+          <td class="table-info">Nakuru - Mombasa</td>
+          <td class="table-primary">Nakuru - Nairobi</td>
+          <td class="table-info">Nakuru - Kisumu</td>
+        </tr>
+        <tr>
+          <td class="table-primary">Kisumu - Mombasa</td>
+          <td class="table-info">Kisumu - Nakuru</td>
+          <td class="table-primary">Kisumu - Nairobi</td>
+        </tr>
+      </table>
+     
+    </section>
+  <!-- patners -->
+  <section class="partner my-5" style="margin-left: 180px;">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="images/toyota.svg" alt="toyota" width="122px" height="90px"   class="img-fluid img-thumbnail">
+        </div>
+           <div class="col-md-2">
+            <img src="images/volvo.svg" alt="volvo" width="130px" height="90px" class="img-fluid img-thumbnail">
+            </div>
+        <div class="col-md-2">
+          <img src="images/nissan.svg" alt="nissan" width="122px" height="90px" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-md-2">
+          <img src="images/scania.svg" alt="scania" width="122px" height="90px" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-md-2">
+          <img src="images/isuzu.svg" alt="isuzu" width="122px" height="90px" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-md-2">
+          <img src="images/hyundai.svg" alt="hyundai" width="122px" height="90px" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+  </section>
+          <!-- JQUERY -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- popper js -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap.min.js -->
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
